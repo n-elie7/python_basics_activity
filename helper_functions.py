@@ -3,7 +3,7 @@ def validate_input(user_input):
         return True
     return False
 
-def ceate_message(name, age, name_binary, age_binary):
+def create_message(name, age, name_binary, age_binary):
     message = f"Hello {name}, you are {age} years old!\n"
     message = f"Name in binary: {name_binary}\n"
     message = f"Age in binary: {age_binary}"
